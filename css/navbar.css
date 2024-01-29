@@ -182,7 +182,7 @@ body.active .side-menu {
     }
     
     .menu:hover {
-        background-color: var(--bg-activate);
+        /* background-color: var(--bg-activate); */
         border-radius: 8px;
         height: 100%;
     }

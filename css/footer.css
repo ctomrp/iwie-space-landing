@@ -11,7 +11,7 @@ footer a {
 }
 
 a:hover {
-    color: var(--text-dark0);
+    color: var(--text-active);
 }
 
 .footer-container {

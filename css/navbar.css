@@ -1,12 +1,12 @@
 body .navbar {
-    background-color: var(--bg-light);
-    transition: 0.3s ease-in-out;
-}
-
-body.active .navbar{
     background-color: var(--bg-dark);
     transition: 0.3s ease-in-out;
 }
+
+/* body.active .navbar{
+    background-color: var(--bg-dark);
+    transition: 0.3s ease-in-out;
+} */
 
 .menu, .side-menu {
     display: none;
@@ -17,16 +17,16 @@ body.active .navbar{
     align-items: center;
     display: flex;
     justify-content: space-between;
-    background-color: var(--bg-light);
+    background-color: var(--bg-dark);
     backdrop-filter: blur(10px);
     height: 56px;
     transition: .5s ease-in-out;
 }
 
-body.active .horizontal-menu {
+/* body.active .horizontal-menu {
     transition: .5s ease-in-out;
     background-color: var(--bg-dark);
-}
+} */
 
 .home, .login {
     font-size: 1.2rem;
@@ -38,7 +38,7 @@ body.active .horizontal-menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px var(--bg-activate) solid;
+    /* border: 1px var(--bg-activate) solid; */
     border-radius: 8px;
 }
 
@@ -52,7 +52,7 @@ body.active .horizontal-menu {
 
 .logo {
     align-items: center;
-    background-color: var(--bg-activate);
+    /* background-color: var(--bg-activate); */
     border-radius: 8px;
     transition: .3s ease-in-out;
 }
@@ -82,13 +82,13 @@ body.active .horizontal-menu {
 }
 
 .horizontal-menu ul li a:hover, .login:hover {
-    color: var(--text-dark);
+    color: var(--text-dark0);
     background-color: var(--bg-activate);
     border-radius: 8px;
 }
 
 .horizontal-menu ul li a:active, .login:active {
-    color: var(--text-dark);
+    color: var(--text-dark0);
     background-color: var(--bg-focus);
     border-radius: 8px;
 }
@@ -99,14 +99,14 @@ body.active .horizontal-menu {
     justify-content: space-between;
 }
 
-body.active nav a {
+/* body.active nav a {
     color: var(--text-dark);
     transition: 0.2s ease-in-out;
-}
+} */
 
 nav,
 .side-menu {
-    box-shadow: var(--box-shadow-light);
+    box-shadow: var(--box-shadow-dark);
     transition: 0.3s ease-in-out;
 }
 
@@ -127,7 +127,7 @@ body.active .side-menu {
     position: fixed;
     right: 0;
     width: 200px;
-    background-color: var(--bg-light);
+    background-color: var(--bg-dark);
     backdrop-filter: blur(10px);
     transition: 0.3s ease-in-out;
     z-index: 999;
@@ -147,6 +147,7 @@ body.active .side-menu {
 .side-menu li:hover {
     background-color: var(--bg-activate);
     border-radius: 25px;
+    color: var(--text-dark0);
 }
 
 .side-menu a {
@@ -155,13 +156,13 @@ body.active .side-menu {
 }
 
 .side-menu li a:hover {
-    color: white;
+    color: var(--text-dark0);
     transition: .3s;
     width: 100%;
 }
 
-.nav-start a .logo:hover {
-    background-color: var(--bg-focus);
+nav a {
+    color: #bac0c0c0;
 }
 
 @media(max-width: 800px){

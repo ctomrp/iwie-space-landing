@@ -1,6 +1,6 @@
 .carousel-section {
     align-items: center;
-    background-color: var(--bg-light);
+    background-color: var(--bg-dark0);
     display: flex;
     justify-content: center;
     transition: .5s ease-in-out;

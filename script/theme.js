@@ -11,15 +11,15 @@ theme.onclick = function () {
   body.classList.toggle("active");
   if (body.classList.contains("active")) {
     document.getElementById("theme-icon-path").setAttribute("d", pathLight);
-    document.getElementById("theme-icon-path").setAttribute("fill", "#ffffff");
+    document.getElementById("theme-icon-path").setAttribute("fill", "#bac0c0c0");
     document.getElementById("theme-icon-path").style = "transition: 0.3s ease-in-out";
-    document.getElementById("menu-icon-path").setAttribute("fill", "#ffffff");
+    document.getElementById("menu-icon-path").setAttribute("fill", "#bac0c0c0");
     document.getElementById("menu-icon-path").style = "transition: 0.3s ease-in-out";
   } else {
     document.getElementById("theme-icon-path").setAttribute("d", pathDark);
-    document.getElementById("theme-icon-path").setAttribute("fill", "#151719");
+    document.getElementById("theme-icon-path").setAttribute("fill", "#bac0c0c0");
     document.getElementById("theme-icon-path").style = "transition: 0.3s ease-in-out";
-    document.getElementById("menu-icon-path").setAttribute("fill", "#151719");
+    document.getElementById("menu-icon-path").setAttribute("fill", "#bac0c0c0");
     document.getElementById("menu-icon-path").style = "transition: 0.3s ease-in-out";
   }
 };

@@ -3,6 +3,9 @@ footer {
     color: var(--text-dark);
     font-size: large;
     width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer a {
@@ -25,23 +28,29 @@ a:hover {
 
 .rrss {
     display: flex;
+    justify-content: space-evenly;
     gap: 2rem;
+    align-items: center;
 }
 
 @media(max-width: 800px){
     .footer-container {
         width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 
 @media(max-width: 400px){
     .footer-container {
-        flex-flow: wrap;
-        justify-content: center;
-        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
     .rrss{
         margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 }

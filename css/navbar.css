@@ -198,6 +198,7 @@ nav a {
 @media(max-width: 400px){
     .side-menu{
         width: 100%;
+        top: 72px
     }
 
 }

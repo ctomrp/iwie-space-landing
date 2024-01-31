@@ -35,6 +35,9 @@ body.active .carousel-section {
     transform: translateX(-25%);
     transition: all .5s ease;
     padding: 2rem;
+}
+
+.carousel-container {
     width: 400%;
 }
 

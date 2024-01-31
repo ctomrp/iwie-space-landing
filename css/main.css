@@ -1,9 +1,14 @@
 main {
-    margin-top: 2rem;
+    margin-top: 2rem auto;
+    background-color: var(--bg-dark);
+    
+}
+
+.space {
     background-image: url("../assets/4.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    width: 100%;
 }
 
 .logo-body {
@@ -31,6 +36,7 @@ main {
     font-size: 75px;
     font-weight: 600;
     color: var(--text-dark);
+    width: 100vw;
 }
 
 .img-logo-body {

@@ -21,6 +21,11 @@ body .navbar {
     backdrop-filter: blur(10px);
     height: 56px;
     transition: .5s ease-in-out;
+    width: 100vw;
+}
+
+.navbar a {
+    text-decoration: none;
 }
 
 /* body.active .horizontal-menu {
@@ -124,10 +129,10 @@ body.active .side-menu {
     text-align: center;
     padding-top: 10px;
     gap: 1rem;
-    top: 56px;
+    top: 4.5rem;
     position: fixed;
     right: 0;
-    width: 200px;
+    width: 100%;
     background-color: var(--bg-dark);
     backdrop-filter: blur(10px);
     transition: 0.3s ease-in-out;
@@ -139,7 +144,10 @@ body.active .side-menu {
     background-color: var(--bg-dark);
 }
 
+
 .side-menu li {
+    border: 1px solid #bac0c0;
+    border-radius: 25px;
     width: 100%;
     list-style: none;
     padding: .5rem;
@@ -175,16 +183,17 @@ nav a {
         display: none;
     }
     
-    .nav-start, .nav-end, .menu{
+    .nav-start, .menu{
         display: flex;
         margin: 0;
     }
-
+    
     .menu{
         margin-right: 2rem;
         width: 2rem;
         display: flex;
         justify-content: center;
+        display: none;
         
     }
     
@@ -192,6 +201,10 @@ nav a {
         /* background-color: var(--bg-activate); */
         border-radius: 8px;
         height: 100%;
+    }
+    .nav-end {
+        margin: 2rem;
+        padding: 0;
     }
 }
 

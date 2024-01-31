@@ -44,6 +44,8 @@ body .navbar {
     justify-content: center;
     align-items: center;
     /* border: 1px var(--bg-activate) solid; */
+    color: var(--text-dark0);
+    background-color: var(--bg-activate);
     border-radius: 8px;
 }
 
@@ -90,6 +92,12 @@ body .navbar {
 .horizontal-menu ul li a:hover, .login:hover {
     color: var(--text-dark0);
     background-color: var(--bg-activate);
+    border-radius: 8px;
+}
+
+.login:hover {
+    color: var(--text-dark0);
+    background-color: white;
     border-radius: 8px;
 }
 

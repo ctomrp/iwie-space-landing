@@ -1,0 +1,12 @@
+.home .logo {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    padding: 6px;
+    width: auto;
+}
+
+.bg-custom {
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+}

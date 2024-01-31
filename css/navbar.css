@@ -3,6 +3,14 @@ body .navbar {
     transition: 0.3s ease-in-out;
 }
 
+.navbar {
+    border: 1px solid saddlebrown;
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    justify-content: space-between;
+}
+
 /* body.active .navbar{
     background-color: var(--bg-dark);
     transition: 0.3s ease-in-out;
@@ -14,14 +22,18 @@ body .navbar {
 }
 
 .horizontal-menu{
+    border: 1px solid green;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* width: 100vw;
     align-items: center;
     display: flex;
     justify-content: space-between;
     background-color: var(--bg-dark);
     backdrop-filter: blur(10px);
     height: 56px;
-    transition: .5s ease-in-out;
-    width: 100vw;
+    transition: .5s ease-in-out; */
 }
 
 .navbar a {

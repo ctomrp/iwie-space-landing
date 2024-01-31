@@ -1,7 +1,7 @@
 main {
     margin-top: 2rem auto;
     background-color: var(--bg-dark);
-    
+
 }
 
 .space {
@@ -26,7 +26,7 @@ main {
     backdrop-filter: 3px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
-.img-logo-body{
+.img-logo-body {
     filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.9));
 }
 
@@ -64,20 +64,22 @@ body.active .announcement {
     transition: .5s ease-in-out;
 }
 
-@media(max-width: 800px){
+@media(max-width: 800px) {
     .message-body {
         font-size: 20px;
     }
-    .announcement{
+
+    .announcement {
         font-size: 30px;
     }
 }
 
-@media(max-width: 400px){
+@media(max-width: 400px) {
     .message-body {
         font-size: 18px;
     }
-    .announcement{
+
+    .announcement {
         font-size: 20px;
     }
 

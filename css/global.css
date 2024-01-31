@@ -22,7 +22,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "geomanistregular" ;
+  font-family: "geomanistregular";
 }
 
 body {
@@ -38,9 +38,9 @@ body.active {
 }
 
 a {
-    color: var(--text-dark);
-    text-decoration: none;
-    transition: 0.3s ease-in-out;
+  color: var(--text-dark);
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
 }
 
 header .navbar {

@@ -74,6 +74,7 @@ body .navbar {
 .theme {
     cursor: pointer;
     padding: .4rem;
+    display: none;
 }
 
 .horizontal-menu ul li a, .home, .login {
@@ -165,6 +166,10 @@ nav a {
     color: #bac0c0c0;
 }
 
+.nav-center {
+    display: none;
+}
+
 @media(max-width: 800px){
     .hide-on-mobile{
         display: none;
@@ -180,6 +185,7 @@ nav a {
         width: 2rem;
         display: flex;
         justify-content: center;
+        
     }
     
     .menu:hover {

@@ -12,7 +12,7 @@
   --bg-focus: #ffffff;
   --bg-activate: #bac0c0;
   --bg-dark0: #d9e3ea;
-  --text-dark: #ffffff;
+  --text-dark: #bac0c0;
   --text-dark0: #151719;
   --box-shadow-light: 3px 3px 5px rgba(21, 23, 25, 0.1);
   --box-shadow-dark: 3px 3px 5px rgba(21, 23, 25, 0.1);
@@ -26,8 +26,8 @@
 }
 
 body {
-  background-color: var(--bg-dark0);
-  color: var(--text-dark0);
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
   transition: 0.3s ease-in-out;
 }
 
@@ -38,7 +38,7 @@ body.active {
 }
 
 a {
-    color: var(--text-dark0);
+    color: var(--text-dark);
     text-decoration: none;
     transition: 0.3s ease-in-out;
 }

@@ -1,7 +1,7 @@
-import photo1 from "../../assets/1.jpg";
-import photo2 from "../../assets/2.jpg";
-import photo3 from "../../assets/3.jpg";
-import photo4 from "../../assets/4.jpg";
+import photo1 from "../../assets/1.webp";
+import photo2 from "../../assets/2.webp";
+import photo3 from "../../assets/3.webp";
+import photo4 from "../../assets/4.webp";
 import s from "./style.module.css";
 
 export function Carousel() {

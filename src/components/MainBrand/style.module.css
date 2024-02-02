@@ -1,0 +1,24 @@
+.container {
+  background-image: url("../../assets/4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+
+.brandContainer {
+  backdrop-filter: blur(6px);
+  height: 70vh;
+  width: 100vw;
+}
+
+.brand {
+  object-fit: fill;
+  width: 50vw;
+  height: auto;
+  align-self: center;
+  filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.9));
+}
+
+.message {
+  text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.9);
+}

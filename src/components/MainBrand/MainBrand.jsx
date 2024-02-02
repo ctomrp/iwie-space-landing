@@ -1,4 +1,4 @@
-import brand from "../../assets/logo.svg";
+import brand from "/assets/logo.svg";
 import s from "./style.module.css";
 
 export function MainBrand() {

@@ -1,4 +1,4 @@
-import tiktok from "../../assets/tiktok.svg";
+import tiktok from "/assets/tiktok.svg";
 import s from "./style.module.css";
 
 export function Footer() {

@@ -7,7 +7,7 @@ import s from "./style.module.css";
 export function Carousel() {
   return (
     <div className="d-flex flex-column justify-content-center text-center mt-5">
-      <h3 classNameName={`${s.message} fs-1 fw-bold`}>
+      <h3 className={`${s.message} fs-1 fw-bold`}>
         Pronto conocerás un nuevo espacio
       </h3>
       <div

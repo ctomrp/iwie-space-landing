@@ -13,7 +13,7 @@
 
 .brand {
   object-fit: fill;
-  width: 50vw;
+  width: 35vw;
   height: auto;
   align-self: center;
   filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.9));
@@ -21,4 +21,10 @@
 
 .message {
   text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.9);
+}
+
+@media screen and (max-width: 767px) {
+  .brand{
+    width: 50vw;
+  }
 }

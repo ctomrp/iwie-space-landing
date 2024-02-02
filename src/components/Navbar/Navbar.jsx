@@ -6,7 +6,7 @@ export function Navbar() {
     <nav className={`${s.navbar} navbar fixed-top`} data-bs-theme="dark">
       <div className="container">
         <a className="navbar-brand">
-          <img src={logo} alt="logo iwie" className={`${s.logo}`} />
+          <img src={logo} alt="logo iwie" className={`${s.logo}`} loading="lazy" />
         </a>
         <a
           href="https://www.tiktok.com/@iwie.space"

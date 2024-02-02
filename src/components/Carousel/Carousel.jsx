@@ -47,6 +47,7 @@ export function Carousel() {
             <img
               src={photo1}
               className="d-block w-100"
+              loading="lazy"
               alt="personas recibiendo premios"
             />
           </div>
@@ -54,6 +55,7 @@ export function Carousel() {
             <img
               src={photo2}
               className="d-block w-100"
+              loading="lazy"
               alt="personas posan con certificados en la mano"
             />
           </div>
@@ -61,6 +63,7 @@ export function Carousel() {
             <img
               src={photo3}
               className="d-block w-100"
+              loading="lazy"
               alt="personas siendo capacitadas"
             />
           </div>
@@ -68,6 +71,7 @@ export function Carousel() {
             <img
               src={photo4}
               className="d-block w-100"
+              loading="lazy"
               alt="la tierra desde el espacio"
             />
           </div>
